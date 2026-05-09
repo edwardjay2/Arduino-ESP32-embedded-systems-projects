@@ -117,3 +117,26 @@ Simulates RPM data storage and retrieval using EEPROM memory.
 *Concepts:* Embedded data logging, EEPROM memory, engine monitoring
 
 *Concepts:* Embedded data logging, EEPROM memory, fault monitoring, vehicle diagnostics
+
+---
+
+##  Smart Truck Black Box ECU System
+Simulates a vehicle event data recorder (black box) that stores temperature, pressure, and speed data using EEPROM memory.
+
+*Commands:*
+- S → Save sensor snapshot
+- R → Read stored records
+- C → Clear memory
+
+*Features:*
+- Multi-parameter data logging
+- EEPROM record storage
+- Fault condition detection
+- Serial diagnostic interface
+
+*Warnings:*
+- Overheat detection
+- Low pressure alert
+- Overspeed warning
+
+*Concepts:* Embedded data logging, vehicle black box systems, EEPROM memory, ECU diagnostics
