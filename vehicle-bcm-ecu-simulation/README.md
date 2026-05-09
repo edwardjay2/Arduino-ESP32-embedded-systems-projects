@@ -52,6 +52,15 @@ The system stores service-related data in non-volatile memory and allows reset o
 
 ---
 
+##  EEPROM Service Counter System
+Simulates an ECU maintenance/service counter using EEPROM memory with serial command control.
+
+*Commands:*
+- C → Increase service count
+- R → Reset service count
+
+*Concepts:* EEPROM storage, serial communication, service interval tracking
+
 ## System Description
 
 ### Features
@@ -59,6 +68,18 @@ The system stores service-related data in non-volatile memory and allows reset o
 - Service counter reset
 - Serial diagnostic command interface
 
-### Command
-```text
-R → Reset service count
+---
+
+## Temperature Storage & Warning System
+Simulates ECU temperature storage using EEPROM with overheating warning detection.
+
+*Commands:*
+- S → Save temperature
+- R → Read stored temperature
+
+*Features:*
+- EEPROM temperature storage
+- Overheat warning detection
+- Serial diagnostic interface
+
+*Concepts:* EEPROM memory, fault monitoring, embedded diagnostics
