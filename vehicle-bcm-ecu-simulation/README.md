@@ -83,3 +83,21 @@ Simulates ECU temperature storage using EEPROM with overheating warning detectio
 - Serial diagnostic interface
 
 *Concepts:* EEPROM memory, fault monitoring, embedded diagnostics
+
+---
+
+## Smart Truck Data Logger
+Simulates a truck ECU data logging system using EEPROM memory for storing temperature and pressure records.
+
+*Commands:*
+- S → Save sensor record
+- R → Read stored records
+- C → Clear memory
+
+*Features:*
+- Multi-record EEPROM storage
+- Temperature & pressure monitoring
+- Overheat and low-pressure warnings
+- Diagnostic serial interface
+
+*Concepts:* Embedded data logging, EEPROM memory, fault monitoring, vehicle diagnostics
