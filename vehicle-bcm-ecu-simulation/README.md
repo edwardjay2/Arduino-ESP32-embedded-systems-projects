@@ -100,4 +100,20 @@ Simulates a truck ECU data logging system using EEPROM memory for storing temper
 - Overheat and low-pressure warnings
 - Diagnostic serial interface
 
+---
+
+##  Smart Truck RPM Logger
+Simulates RPM data storage and retrieval using EEPROM memory.
+
+*Commands:*
+- S → Save RPM record
+- R → Read RPM records
+
+*Features:*
+- EEPROM RPM storage
+- Multi-record logging
+- Serial diagnostic interface
+
+*Concepts:* Embedded data logging, EEPROM memory, engine monitoring
+
 *Concepts:* Embedded data logging, EEPROM memory, fault monitoring, vehicle diagnostics
