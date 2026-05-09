@@ -155,4 +155,21 @@ Simulates a vehicle ECU trip counter using EEPROM memory to store and retrieve t
 - Incremental trip tracking
 - Serial-based diagnostic interface
 
+
+---
+
+## Smart Truck Trip Counter with Reset
+Simulates a vehicle ECU trip counter system with EEPROM memory and reset functionality.
+
+*Commands:*
+- S → Increment trip count
+- R → Read saved trips
+- C → Reset trip counter
+
+*Features:*
+- Persistent trip storage (EEPROM)
+- Reset functionality
+- Serial diagnostic control
+
+*Concepts:* Embedded counters, EEPROM memory, vehicle usage tracking
 *Concepts:* Embedded counters, EEPROM memory, vehicle usage tracking
