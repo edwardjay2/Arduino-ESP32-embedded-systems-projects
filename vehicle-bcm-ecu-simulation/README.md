@@ -140,3 +140,19 @@ Simulates a vehicle event data recorder (black box) that stores temperature, pre
 - Overspeed warning
 
 *Concepts:* Embedded data logging, vehicle black box systems, EEPROM memory, ECU diagnostics
+
+---
+
+## Truck Trip Counter System
+Simulates a vehicle ECU trip counter using EEPROM memory to store and retrieve trip counts.
+
+*Commands:*
+- S → Store trip count
+- R → Read saved trips
+
+*Features:*
+- Persistent trip storage (EEPROM)
+- Incremental trip tracking
+- Serial-based diagnostic interface
+
+*Concepts:* Embedded counters, EEPROM memory, vehicle usage tracking
