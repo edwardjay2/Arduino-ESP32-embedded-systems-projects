@@ -114,7 +114,7 @@ Simulates RPM data storage and retrieval using EEPROM memory.
 - Multi-record logging
 - Serial diagnostic interface
 
-*Concepts:* Embedded data logging, EEPROM memory, engine monitoring
+
 
 *Concepts:* Embedded data logging, EEPROM memory, fault monitoring, vehicle diagnostics
 
@@ -171,5 +171,4 @@ Simulates a vehicle ECU trip counter system with EEPROM memory and reset functio
 - Reset functionality
 - Serial diagnostic control
 
-*Concepts:* Embedded counters, EEPROM memory, vehicle usage tracking
 *Concepts:* Embedded counters, EEPROM memory, vehicle usage tracking
