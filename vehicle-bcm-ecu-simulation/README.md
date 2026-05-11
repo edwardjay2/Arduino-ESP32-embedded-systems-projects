@@ -172,3 +172,21 @@ Simulates a vehicle ECU trip counter system with EEPROM memory and reset functio
 - Serial diagnostic control
 
 *Concepts:* Embedded counters, EEPROM memory, vehicle usage tracking
+
+---
+
+## Smart Truck Trip Memory System
+Simulates a truck ECU trip memory system using EEPROM to store trip count, distance, and fuel usage records.
+
+*Commands:*
+- S → Save trip record
+- R → Read stored records
+- C → Clear memory
+
+*Features:*
+- Multi-record EEPROM storage
+- Distance and fuel tracking
+- Service warning logic
+- Persistent trip memory
+
+*Concepts:* Embedded memory systems, vehicle trip logging, fleet monitoring, ECU diagnostics
