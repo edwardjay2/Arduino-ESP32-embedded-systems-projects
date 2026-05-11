@@ -190,3 +190,23 @@ Simulates a truck ECU trip memory system using EEPROM to store trip count, dista
 - Persistent trip memory
 
 *Concepts:* Embedded memory systems, vehicle trip logging, fleet monitoring, ECU diagnostics
+
+---
+
+## ECU Fault Memory System
+Simulates a truck ECU fault memory system using EEPROM to store and retrieve Diagnostic Trouble Codes (DTCs).
+
+*Commands:*
+- O → Overheat fault
+- P → Low pressure fault
+- S → Overspeed fault
+- B → Brake failure
+- D → Display fault history
+
+*Features:*
+- EEPROM fault storage
+- Diagnostic Trouble Code (DTC) logging
+- Fault history retrieval
+- Inspection warning system
+
+*Concepts:* ECU diagnostics, DTC systems, EEPROM memory, fault management
