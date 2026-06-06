@@ -207,4 +207,4 @@ Features:
 - Fault history retrieval
 - Inspection warning system
 
-*Concepts:* ECU diagnostics, DTC systems, EEPROM memory, fault management
+Concepts: ECU diagnostics, DTC systems, EEPROM memory, fault management
