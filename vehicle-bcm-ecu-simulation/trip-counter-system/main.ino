@@ -10,7 +10,7 @@ void setup() {
 
   Serial.println("==== SMART TRUCK TRIP COUNTER SYSTEM ====");
   Serial.println("S = STORE TRIP COUNT");
-  Serial.println("R = READ SAVED TRIP");
+  Serial.println("R = READ SAVED TRIPS");
   Serial.println("C = RESET TRIP COUNT");
 
   tripCount = EEPROM.read(0);
