@@ -88,3 +88,21 @@ Features:
 - Fault code decoding
 
 Concepts: ECU communication, priority management, fault diagnostics, embedded systems.
+
+---
+
+Advanced ECU Isolation System
+
+Overview
+
+Simulates ECU fault monitoring with priority-based fault detection and automatic ECU isolation after repeated critical faults.
+
+Features:
+
+- Multi-ECU fault monitoring
+- Priority-based fault detection
+- Critical fault counting
+- Automatic ECU isolation
+- Fault history display
+
+Concepts: ECU communication, fault management, embedded diagnostics.
