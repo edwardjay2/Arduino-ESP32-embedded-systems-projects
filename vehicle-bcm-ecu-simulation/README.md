@@ -15,7 +15,7 @@ The system monitors multiple vehicle fault inputs and activates a master warning
 - Door switch
 - Pressure warning switch
 
-### Processing
+Processing
 - Centralized ECU fault evaluation logic
 
 ### Output
@@ -43,58 +43,58 @@ No faults detected → Warning OFF
 
 ---
 
-## EEPROM Service Reset System
+ EEPROM Service Reset System
 
-### Overview
+ Overview
 This module simulates an ECU service reset system using EEPROM memory storage.
 
 The system stores service-related data in non-volatile memory and allows reset operations through serial commands.
 
 ---
 
-##  EEPROM Service Counter System
+  EEPROM Service Counter System
 Simulates an ECU maintenance/service counter using EEPROM memory with serial command control.
 
-*Commands:*
+Commands:
 - C → Increase service count
 - R → Reset service count
 
-*Concepts:* EEPROM storage, serial communication, service interval tracking
+Concepts: EEPROM storage, serial communication, service interval tracking
 
-## System Description
+ System Description
 
-### Features
+ Features
 - EEPROM memory storage
 - Service counter reset
 - Serial diagnostic command interface
 
 ---
 
-## Temperature Storage & Warning System
+ Temperature Storage & Warning System
 Simulates ECU temperature storage using EEPROM with overheating warning detection.
 
-*Commands:*
+Commands:
 - S → Save temperature
 - R → Read stored temperature
 
-*Features:*
+Features:
 - EEPROM temperature storage
 - Overheat warning detection
 - Serial diagnostic interface
 
-*Concepts:* EEPROM memory, fault monitoring, embedded diagnostics
+Concepts: EEPROM memory, fault monitoring, embedded diagnostics
 
 ---
 
-## Smart Truck Data Logger
+ Smart Truck Data Logger
 Simulates a truck ECU data logging system using EEPROM memory for storing temperature and pressure records.
 
-*Commands:*
+Commands:
 - S → Save sensor record
 - R → Read stored records
 - C → Clear memory
 
-*Features:*
+Features:
 - Multi-record EEPROM storage
 - Temperature & pressure monitoring
 - Overheat and low-pressure warnings
@@ -102,55 +102,54 @@ Simulates a truck ECU data logging system using EEPROM memory for storing temper
 
 ---
 
-##  Smart Truck RPM Logger
+  Smart Truck RPM Logger
 Simulates RPM data storage and retrieval using EEPROM memory.
 
-*Commands:*
+Commands:
 - S → Save RPM record
 - R → Read RPM records
 
-*Features:*
+Features:
 - EEPROM RPM storage
 - Multi-record logging
 - Serial diagnostic interface
 
 
-
-*Concepts:* Embedded data logging, EEPROM memory, fault monitoring, vehicle diagnostics
+Concepts: Embedded data logging, EEPROM memory, fault monitoring, vehicle diagnostics
 
 ---
 
-##  Smart Truck Black Box ECU System
+ Smart Truck Black Box ECU System
 Simulates a vehicle event data recorder (black box) that stores temperature, pressure, and speed data using EEPROM memory.
 
-*Commands:*
+Commands:
 - S → Save sensor snapshot
 - R → Read stored records
 - C → Clear memory
 
-*Features:*
+Features:
 - Multi-parameter data logging
 - EEPROM record storage
 - Fault condition detection
 - Serial diagnostic interface
 
-*Warnings:*
+Warnings:
 - Overheat detection
 - Low pressure alert
 - Overspeed warning
 
-*Concepts:* Embedded data logging, vehicle black box systems, EEPROM memory, ECU diagnostics
+Concepts: Embedded data logging, vehicle black box systems, EEPROM memory, ECU diagnostics
 
 ---
 
-## Truck Trip Counter System
+ Truck Trip Counter System
 Simulates a vehicle ECU trip counter using EEPROM memory to store and retrieve trip counts.
 
-*Commands:*
+Commands:
 - S → Store trip count
 - R → Read saved trips
 
-*Features:*
+Features:
 - Persistent trip storage (EEPROM)
 - Incremental trip tracking
 - Serial-based diagnostic interface
@@ -158,52 +157,51 @@ Simulates a vehicle ECU trip counter using EEPROM memory to store and retrieve t
 
 ---
 
-## Smart Truck Trip Counter with Reset
+ Smart Truck Trip Counter with Reset
 Simulates a vehicle ECU trip counter system with EEPROM memory and reset functionality.
 
-*Commands:*
+Commands:
 - S → Increment trip count
 - R → Read saved trips
 - C → Reset trip counter
 
-*Features:*
+Features:
 - Persistent trip storage (EEPROM)
 - Reset functionality
 - Serial diagnostic control
 
-*Concepts:* Embedded counters, EEPROM memory, vehicle usage tracking
+Concepts: Embedded counters, EEPROM memory, vehicle usage tracking
 
 ---
 
-## Smart Truck Trip Memory System
+ Smart Truck Trip Memory System
 Simulates a truck ECU trip memory system using EEPROM to store trip count, distance, and fuel usage records.
 
-*Commands:*
+Commands:
 - S → Save trip record
 - R → Read stored records
 - C → Clear memory
 
-*Features:*
+Features:
 - Multi-record EEPROM storage
 - Distance and fuel tracking
 - Service warning logic
 - Persistent trip memory
 
-*Concepts:* Embedded memory systems, vehicle trip logging, fleet monitoring, ECU diagnostics
+Concepts: Embedded memory systems, vehicle trip logging, fleet monitoring, ECU diagnostics
 
 ---
 
-## ECU Fault Memory System
+ ECU Fault Memory System
 Simulates a truck ECU fault memory system using EEPROM to store and retrieve Diagnostic Trouble Codes (DTCs).
-
-*Commands:*
+Commands:
 - O → Overheat fault
 - P → Low pressure fault
 - S → Overspeed fault
 - B → Brake failure
 - D → Display fault history
 
-*Features:*
+Features:
 - EEPROM fault storage
 - Diagnostic Trouble Code (DTC) logging
 - Fault history retrieval
