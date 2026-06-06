@@ -1,37 +1,73 @@
 Automotive ECU Network Lab
 
-Project Overview
+Overview
 
-This folder contains Arduino-based projects that simulate communication between multiple automotive Electronic Control Units (ECUs). The projects demonstrate how ECUs exchange fault messages, process diagnostic information, and manage vehicle network communication.
+This folder contains Arduino-based projects that simulate communication between multiple automotive Electronic Control Units (ECUs). The projects demonstrate fault messaging, network communication, fault logging, and diagnostic processing.
 
-System Architecture
+---
 
-Simulated ECUs
+ECU Network Simulation
 
-- Engine ECU
-- Brake ECU
-- Transmission ECU
+Overview
 
-Processing
+Simulates communication between multiple ECUs by transmitting and decoding fault messages.
 
-- ECU message transmission
-- Fault message decoding
-- Fault history logging
-- Message filtering
+Features:
 
-Output
+- Multi-ECU communication
+- Fault message transmission
+- Fault code decoding
+- Serial diagnostic output
 
-- Serial Monitor diagnostic messages
+Concepts: ECU communication, message handling, embedded diagnostics
+
+---
+
+ECU Message Filter System
+
+Overview
+
+Simulates filtering of ECU fault messages by displaying faults from selected ECUs.
+
+Features:
+
+- ECU message filtering
+- Fault decoding
 - Fault history display
+- Structured fault storage
 
-Working Principle
+Concepts: Message filtering, software architecture, diagnostic systems
 
-When an ECU detects a fault, it sends a fault message to the simulated network.
+---
 
-The system then:
+ECU Fault History Manager
 
-- Receives the ECU message
-- Stores the fault information
-- Decodes the fault code
-- Displays the diagnostic message
-- Filters and manages fault history
+Overview
+
+Simulates a fault history manager that stores, displays, and clears ECU fault records.
+
+Features:
+
+- Fault history logging
+- Fault code decoding
+- Memory buffer management
+- History reset
+
+Concepts: Fault management, diagnostic logging, embedded software
+
+---
+
+ECU Fault Monitoring System
+
+Overview
+
+Simulates an advanced ECU fault monitoring system that counts faults, stores fault history, and generates service warnings.
+
+Features:
+
+- Multi-ECU fault monitoring
+- Fault counter
+- Fault history logging
+- Service and inspection warnings
+
+Concepts: ECU monitoring, fault diagnostics, automotive embedded systems
