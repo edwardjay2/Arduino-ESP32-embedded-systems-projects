@@ -106,3 +106,19 @@ Features:
 - Fault history display
 
 Concepts: ECU communication, fault management, embedded diagnostics.
+
+---
+
+Mini European Truck Central Gateway
+
+ Overview
+Simulates a central ECU gateway system that manages multiple vehicle ECUs, processes fault messages, tracks critical faults, and isolates faulty ECUs when thresholds are exceeded.
+
+Features:
+- Multi-ECU fault monitoring
+- Priority-based fault detection
+- ECU isolation system
+- Critical fault counters
+- Full and filtered diagnostics
+
+Concepts: ECU gateway architecture, fault management, embedded diagnostics, automotive network control.
