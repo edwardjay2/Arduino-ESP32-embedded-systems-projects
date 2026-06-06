@@ -22,7 +22,7 @@ Features:
 ### Overview
 Simulates decoding ECU fault codes into readable messages.
 
-*Features:*
+Features:
 - Fault code interpretation
 - Diagnostic message output
 - ECU communication logic
