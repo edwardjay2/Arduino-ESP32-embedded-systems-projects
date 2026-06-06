@@ -66,8 +66,25 @@ Simulates an advanced ECU fault monitoring system that counts faults, stores fau
 Features:
 
 - Multi-ECU fault monitoring
-- Fault counter
+- Fault counter  
 - Fault history logging
 - Service and inspection warnings
 
 Concepts: ECU monitoring, fault diagnostics, automotive embedded systems
+
+
+---
+
+ ECU Priority Management System
+
+ Overview
+This project simulates an automotive ECU priority management system using Arduino. It receives fault messages from multiple ECUs, assigns priority levels, filters critical faults, and displays diagnostic information through the Serial Monitor.
+
+Features:
+
+- Multi-ECU fault communication
+- Priority-based fault classification
+- Critical fault filtering
+- Fault code decoding
+
+Concepts: ECU communication, priority management, fault diagnostics, embedded systems.
