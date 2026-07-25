@@ -101,3 +101,41 @@ Concepts
 - Blackbox data logging
 - Vehicle diagnostics
 
+
+---
+
+J1939 Endianness Decoder
+
+Project Overview
+
+This project demonstrates how automotive ECU data can be decoded using Little Endian and Big Endian byte order.
+
+System Architecture
+
+Input
+
+- Two 8-bit CAN/J1939 data bytes
+
+Processing
+
+- Bit shifting
+- Bitwise OR
+- Little Endian decoding
+- Big Endian decoding
+
+Output
+
+- Decoded RPM values
+
+Working Principle
+
+The system combines two data bytes using different byte orders to demonstrate how ECU data can produce different values depending on the decoding format.
+
+Concepts
+
+- CAN/J1939 data bytes
+- Little Endian
+- Big Endian
+- Bit shifting
+- Bitwise OR
+- ECU data decoding
