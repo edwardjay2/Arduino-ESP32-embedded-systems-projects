@@ -1,3 +1,7 @@
+#include <Arduino.h>
+
+void setup() {
+
 uint8_t byte0 = 0xDC;
 uint8_t byte1 = 0X05;
 
@@ -12,4 +16,6 @@ Serial.println(rpmLittle);
 
 Serial.print("Big Endian RPM: ");
 Serial.println(rpmBig);
+}
 
+void loop() { }
