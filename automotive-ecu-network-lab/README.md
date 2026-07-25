@@ -261,3 +261,49 @@ CAN bus communication, message IDs, ECU networking, embedded diagnostics, fault 
 
 
 Concepts: ECU gateway architecture, fault management, embedded diagnostics, automotive network control.
+
+
+---
+
+CAN Frame Decoder
+
+Project Overview
+
+This project simulates a vehicle CAN frame using Arduino.
+
+The system decodes CAN data bytes to display engine, transmission, brake, fuel, tire, door, and suspension information.
+
+CAN Frame Data
+
+- Byte 0 → Engine temperature
+- Byte 1 → Current gear
+- Byte 2 → Brake pressure
+- Byte 3 → Vehicle speed
+- Byte 4 → Fuel level
+- Byte 5 → Tire pressure
+- Byte 6 → Door status
+- Byte 7 → Suspension status
+
+Processing
+
+- CAN frame ID decoding
+- DLC validation
+- Data byte decoding
+- Vehicle status monitoring
+- Warning detection
+
+Warning System
+
+The system generates warnings when:
+
+- Engine temperature is above 100°C
+- Fuel level is below 20%
+- Tire pressure is below 30 PSI
+
+Output
+
+Decoded CAN frame information and warning messages are displayed through the Arduino Serial Monitor.
+
+Concepts
+
+CAN frames, data bytes, CAN IDs, ECU communication, vehicle diagnostics, embedded systems, and fault monitoring.
