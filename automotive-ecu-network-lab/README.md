@@ -121,4 +121,24 @@ Features:
 - Critical fault counters
 - Full and filtered diagnostics
 
+----
+
+Truck ECU Network Supervisor
+
+Overview
+
+Simulates an ECU network supervisor that monitors ECU heartbeats, detects communication loss, and activates backup or emergency network modes.
+
+Features:
+
+- ECU registration
+- Heartbeat monitoring
+- Watchdog timeout detection
+- Offline ECU detection
+- Network failure monitoring
+- Emergency network mode
+
+Concepts: ECU network supervision, watchdog systems, communication monitoring, fault handling.
+
+
 Concepts: ECU gateway architecture, fault management, embedded diagnostics, automotive network control.
