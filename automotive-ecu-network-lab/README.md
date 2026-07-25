@@ -205,4 +205,59 @@ Concepts
 ECU networking, watchdog systems, EEPROM, fault monitoring, communication recovery, embedded diagnostics, and vehicle network supervision.
 
 
+---
+
+CAN Bus Message Simulation
+
+Project Overview
+
+This project simulates a simplified automotive CAN bus network using Arduino.
+
+The system receives CAN messages from different vehicle ECUs, decodes the messages, monitors warning conditions, and stores message history.
+
+System Architecture
+
+CAN Messages
+
+- Engine ECU
+- Brake ECU
+- Transmission ECU
+- Suspension ECU
+- Door ECU
+- Tire ECU
+
+Processing
+
+- CAN message ID decoding
+- Message history storage
+- Warning detection
+- CAN bus traffic monitoring
+
+Output
+
+Serial Monitor displays ECU data, warnings, message history, and bus traffic status.
+
+Working Principle
+
+CAN messages are received from different ECUs and identified using their message IDs.
+
+CAN message → ID decoding → ECU data → Warning detection → Message history
+
+Features
+
+- CAN message simulation
+- ECU message identification
+- Engine overheat detection
+- Low tire pressure detection
+- CAN message history
+- Bus traffic monitoring
+- Bus protection mode simulation
+
+Concepts
+
+CAN bus communication, message IDs, ECU networking, embedded diagnostics, fault monitoring, and vehicle communication systems.
+
+
+
+
 Concepts: ECU gateway architecture, fault management, embedded diagnostics, automotive network control.
