@@ -353,3 +353,50 @@ Decoded J1939 data, warning messages, message history, and network status are di
 Concepts
 
 J1939 communication, PGN, SPN, heavy-duty vehicle networking, ECU diagnostics, message decoding, and fault monitoring.
+
+
+---
+
+J1939 ECU Network Traffic Monitor
+
+Project Overview
+
+This project simulates a J1939 vehicle ECU network monitor using Arduino.
+
+The system monitors messages from the Engine, Brake, and Transmission ECUs and counts network traffic from each ECU.
+
+System Architecture
+
+ECUs
+
+- Engine ECU
+- Brake ECU
+- Transmission ECU
+
+Processing
+
+- J1939 PGN and SPN message decoding
+- ECU message counting
+- Network traffic monitoring
+
+Output
+
+- ECU message counts
+- Excessive ECU traffic warning
+
+Working Principle
+
+The system receives simulated J1939 messages from different ECUs.
+
+If an ECU sends more than 10 messages, the system reports:
+
+EXCESSIVE ECU TRAFFIC DETECTED
+
+Concepts
+
+- J1939 communication
+- PGN and SPN
+- ECU source and destination addresses
+- Message monitoring
+- Network traffic detection
+- Embedded diagnostics
