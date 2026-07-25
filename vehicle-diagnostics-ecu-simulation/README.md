@@ -139,3 +139,36 @@ Concepts
 - Bit shifting
 - Bitwise OR
 - ECU data decoding
+
+
+  ---
+
+  ECU Frame Data Decoder
+Project Overview
+This project simulates decoding CAN frame data from different vehicle ECUs.
+System Architecture
+Input
+CAN frame data bytes
+Processing
+ECU identification
+Data byte decoding
+Fault and warning detection
+ECU Systems
+Engine ECU
+Transmission ECU
+Brake ECU
+Body Control ECU
+Output
+Engine temperature and RPM
+Transmission gear and oil temperature
+Brake pressure and ABS status
+Door and seatbelt status
+Working Principle
+The system identifies the ECU from the CAN frame and decodes the corresponding data bytes.
+Warning messages are generated when abnormal conditions are detected.
+Concepts
+CAN frame decoding
+ECU data bytes
+Boolean status
+Fault detection
+Automotive ECU communication
