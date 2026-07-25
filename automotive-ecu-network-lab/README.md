@@ -307,3 +307,49 @@ Decoded CAN frame information and warning messages are displayed through the Ard
 Concepts
 
 CAN frames, data bytes, CAN IDs, ECU communication, vehicle diagnostics, embedded systems, and fault monitoring.
+
+
+---
+
+J1939 Message Simulation
+
+Project Overview
+
+This project simulates a simplified heavy-duty vehicle J1939 network using Arduino.
+
+The system processes J1939 messages using PGNs and SPNs to monitor engine, brake, transmission, fuel, and vehicle speed data.
+
+J1939 Data
+
+- Engine RPM
+- Engine coolant temperature
+- Vehicle speed
+- Fuel level
+- Brake pressure
+- Transmission gear
+
+Processing
+
+- PGN and SPN identification
+- Message history storage
+- Vehicle data decoding
+- Warning detection
+- Network traffic monitoring
+
+Warning System
+
+The system detects:
+
+- Engine overheating
+- Low fuel
+- Low brake pressure
+- Transmission warning
+- High J1939 network traffic
+
+Output
+
+Decoded J1939 data, warning messages, message history, and network status are displayed through the Arduino Serial Monitor.
+
+Concepts
+
+J1939 communication, PGN, SPN, heavy-duty vehicle networking, ECU diagnostics, message decoding, and fault monitoring.
