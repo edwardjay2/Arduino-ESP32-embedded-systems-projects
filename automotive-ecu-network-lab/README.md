@@ -140,5 +140,69 @@ Features:
 
 Concepts: ECU network supervision, watchdog systems, communication monitoring, fault handling.
 
+---
+
+ECU Network Supervisor EEPROM
+
+Project Overview
+
+This project simulates a truck ECU network supervisor using Arduino and EEPROM.
+
+The system monitors ECU communication, detects offline ECUs, tracks reconnections, and stores network events in non-volatile memory.
+
+System Architecture
+
+ECUs
+
+- Engine ECU
+- Brake ECU
+- Transmission ECU
+- Suspension ECU
+- Door ECU
+- Tire ECU
+
+Processing
+
+- ECU heartbeat monitoring
+- Watchdog communication checking
+- ECU failure detection
+- ECU reconnection tracking
+- Critical ECU protection
+
+EEPROM Storage
+
+- ECU communication states
+- Offline event counter
+- Reconnection event counter
+
+Working Principle
+
+If an ECU misses several heartbeat messages:
+
+ECU timeout → ECU marked offline → Network failure detected → Backup mode activated
+
+If several ECUs fail:
+
+Multiple ECU failures → Emergency network mode
+
+If offline events become excessive:
+
+Blackbox lock → Only critical ECUs allowed online
+
+Features
+
+- ECU network monitoring
+- Watchdog supervision
+- Offline ECU detection
+- ECU reconnection detection
+- EEPROM data storage
+- Critical ECU protection
+- Emergency network mode
+- Blackbox lock simulation
+
+Concepts
+
+ECU networking, watchdog systems, EEPROM, fault monitoring, communication recovery, embedded diagnostics, and vehicle network supervision.
+
 
 Concepts: ECU gateway architecture, fault management, embedded diagnostics, automotive network control.
